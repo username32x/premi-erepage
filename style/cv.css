@@ -1,0 +1,14 @@
+h3, h4 { 
+    color:rgb(11, 53, 53);
+    font-size: 22px;
+}
+#photo {  width: 35%;
+}
+#Coordonnées{    
+     width: 35vw ;                               
+    padding: 15px;
+                    border: black 2px solid;
+ border-radius: 20px;
+ background-color: rgb(56, 92, 92);
+
+   }

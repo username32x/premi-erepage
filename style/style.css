@@ -1,14 +1,65 @@
-h3, h4 { 
-    color:rgb(11, 53, 53);
-    font-size: 22px;
-}
-#photo {  width: 35%;
-}
-#Coordonnées{    
-     width: 35vw ;                               
-    padding: 15px;
-                    border: black 2px solid;
- border-radius: 20px;
- background-color: rgb(56, 92, 92);
 
-   }
+@font-face {
+    font-family: "cal";
+    src: url(  "./cal.ttf"    );
+}
+
+
+
+* { 
+    margin : 0 ; 
+    padding: 0;
+    box-sizing: border-box;
+
+}
+   header { /*positionnement block h1 dans header*/
+     align-items: center
+    ; justify-content: center;
+    flex-direction: column;
+    display : flex; 
+    /*taille réelle et apparence de base du header*/
+     width: 100vw;       
+    height: 16wh;           
+ background-color: black;      
+   color: rgb(199, 218, 211);
+   /* image de fond du header*/
+  font-family: cal, serif, sans-serif;
+  background-image:url(../assets/skybv.jpg);
+background-repeat: no-repeat;
+background-position: 40%;
+ background-size: cover;}
+ 
+     header>h1 {  font-size: 7vw;         }
+
+     header> h2 { font-size: 4vw;}
+
+       nav { /*taille et apparence de base du nav*/ 
+    height: 10vh ;
+    width: 100vw;
+     background-color : black ;
+     color : white ;
+     display : flex ;
+     flex-direction :row ;
+     justify-content: space-evenly;
+     align-items: center;
+      
+
+    }
+
+    .bouton {/* formatage du texte*/
+    color: white;
+ text-decoration: none; 
+font-family: "cal";
+font-size: 4vh;
+display:inline-block;
+background-color: rgb(11, 54, 34);
+border-radius: 0.5vh;
+padding: 0.5vw; 
+height: 7.5vh;
+width: 15vw;
+text-align: center;}
+.bouton:hover{ 
+    color : rgb(11, 54, 34); 
+    background-color :  white
+
+}
